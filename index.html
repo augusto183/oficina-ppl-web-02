@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Código ASCII --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de página</title> <!--Nome da Web-->
+    <link rel="stylesheet" href="estilo.css"> <!-- Localiza o arquivo -->
+    <link rel="stylesheet" href="fita.css">
+    <link rel="stylesheet" href="banda.css">
+    <style> 
+        p{ 
+            color: green; 
+        }
+
+        #primeira-div{
+            color: green;
+            text-decoration: underline; 
+        }
+
+        #segunda-div{ 
+            color: blue;
+            text-decoration: line-through; 
+        }
+
+        #outras-div{
+            color: purple;
+            background: yellow;
+            margin: 0.5rem;
+            padding: 1rem;
+        }
+
+        .bloco{
+            color: yellow;
+            background-color: green;
+            margin: .5rem;
+            padding: 1rem;
+            width: 4rem;
+            height: 4rem;
+            border-radius: .5rem;
+        }
+
+        .faixa{
+            color:white;
+            background-color: red;
+            height: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .barra{
+            color:white;
+            background-color: blue;
+            height: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #nona-div {
+            background-color: skyblue;
+            color: red;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .nona {
+            background-color: red;
+            color: skyblue;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .container {
+            border: 1px solid gray;
+            height: 20rem;
+            margin: 1rem;
+            box-shadow: .5rem .5rem .5rem .5rem gray;
+        }
+
+        .item {
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: orangered;
+            color: yellow;
+            margin: .5rem;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: red;"> <!--Subsequente-->
+        Olá,mundo! <!--Texto da tela-->
+    </p>
+
+    <div id="primeira-div">
+        Esta é a primeira DIV <!--Selecionar cada elemento unicamente-->
+    </div>
+
+    <div id="segunda-div">
+        Esta é a segunda DIV
+    </div>
+
+    <div class="outras-div"> <!--Selecionar grpos-->
+        Esta é a terceira DIV
+    </div>
+
+    <div class="outras-div"> 
+        Esta é a quarta DIV
+    </div>
+    <!-- div.a*x-->
+    <!-- ctrl+alt+down-->
+    <div class="bloco">Bloco 01</div>
+    <div class="bloco">Bloco 02</div>
+    <div class="bloco">Bloco 03</div>
+
+    <div class="faixa barra ">Esta é a quinta DIV</div>
+    <div class="barra faixa">Esta é a sexta DIV</div>
+
+    <div class="Fita banda">Esta é a setima DIV</div>
+    <div class="banda Fita">Esta é a oitava DIV</div>
+
+    <div id="nona-div" class="nona">
+        Esta é a nona DIV
+    </div>
+
+
+    <div class="container">
+        <div class="Item">Item 01</div>
+        <div class="Item">Item 02</div>
+        <div class="Item">Item 03</div>
+    </div>
+</body
+</html>
+
+<!--Estilos que vem por ultimo-->
+<!--Estilos em linha-->
+<!--Estilos dentro de head-->
+<!--Estilos arquivo css-->
+<!--Estilos folha de estilo do navegador-->
+
